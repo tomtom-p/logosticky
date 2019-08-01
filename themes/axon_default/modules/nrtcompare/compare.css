@@ -1,0 +1,104 @@
+#mycompare table{
+	margin-bottom: 30px;
+    min-width: 940px;
+    width: 100%;
+}
+@media (max-width: 991px) {
+#mycompare{
+	overflow-x:scroll;	
+}
+}
+#mycompare table th,#mycompare table td {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    font-weight: normal;
+    padding: 15px;
+}
+#mycompare table .comparison_header td{
+    font-size: 16px;
+    min-width: 200px;
+    text-align: left;
+    text-transform: uppercase;
+}
+#mycompare table td.comparison_infos{
+	text-align:center;	
+}
+.div.star.star_on,.star{
+	display:inline-block !important;
+	float:none !important;	
+}
+.item-inner-compare{
+	position:relative;
+	max-width:270px;
+	margin:0 auto;
+}
+.remove_to_compare{
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#mycompare .product_name a{
+    float: left;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 100%;
+}
+#mycompare .product-price-and-shipping{
+    float: left;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+}	
+#mycompare .description-short p{
+    float: left;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 10px;
+    text-align: center;
+    width: 100%;
+}	
+.comment_compare.btn{
+	text-transform:capitalize;
+	font-size:13px;
+	line-height:13px;	
+}
+#mycompare table td.comparison_infos.comparison_feature_even .comment_wrap{
+	position:relative;	
+}
+#mycompare table td.comparison_infos.comparison_feature_even .comment_wrap > div{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    left: 50%;
+    margin-top: 10px;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+	min-width:200px;
+}
+#mycompare table td.comparison_infos.comparison_feature_even .comment_wrap > div:before{
+	border:1px solid #ebebeb;
+	border-bottom:none;
+	border-right:none;
+	background:#fff;
+    content: "";
+    height: 15px;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    top: -8px;
+    transform: rotate(45deg);
+    width: 15px;
+}
+#mycompare table td.comparison_infos.comparison_feature_even .comment_wrap > div .comment{
+	padding:15px;
+	border-bottom:1px solid #ebebeb;
+}
+#mycompare table td.comparison_infos.comparison_feature_even .comment_wrap > div .comment:last-child{
+	border:none;	
+}
+#mycompare table td.comparison_infos.comparison_feature_even .comment_wrap > div .comment > div{
+	line-height:20px;	
+}
